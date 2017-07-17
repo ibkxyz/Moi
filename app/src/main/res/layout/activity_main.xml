@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:orientation="vertical"
+    tools:context="com.example.abc.moi.MainActivity">
+
+    <TextView
+        android:id="@+id/text_random_number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/button_random_image"
+        android:layout_centerInParent="true"
+        android:padding="10dp"
+        android:text="0"
+        android:textColor="#E31E24"
+        android:textSize="50dp" />
+
+
+    <ImageButton
+        android:id="@+id/button_random_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="60dp"
+        android:background="#FFFFFF"
+        android:padding="10dp"
+        android:src="@drawable/moi_push_small" />
+
+    <TextView
+        android:id="@+id/text_reset"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="20dp"
+        android:layout_marginRight="20dp"
+        android:text="Reset"
+        android:textColor="#E31E24"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+</RelativeLayout>
+
